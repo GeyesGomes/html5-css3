@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+body {
+    background-image: linear-gradient(90deg, #04b2d9a6, #05daf2a1);
+}
+main {
+    background-color: white;
+    text-align: auto;
+    text-align: justify;
+    padding: 0.5em;
+    width: 400px;
+    margin: auto;
+    border-radius: 0.5em;
+    box-shadow: 0.5em 0.5em 0.5em #043FB5;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+h2 {
+    font-family: 'Tapestry', cursive;
+    font-weight: normal;
+    color: #04327F;
+    text-shadow: 2px 1px 2px #05DBF2;
+    font-style: italic;
+}
+
+p {
+    font-size: 0.85em;
+}
+
+.inicio {
+    background-color: #043FB5;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 4px #043fb594;
+    color: azure;
+}
+.email {
+    float: right;
+    margin: 1.25em;
+}
+img {
+    margin-left: 2px;
+}
+
+
+.principal {
+    color: #031941;
+    background-color: #7ffff9;
+    text-decoration: none;
+    font-size: em;
+}
+
+.basico {
+    color: rgb(0, 128, 58);
+}
+
+.intermediario {
+    color: yellow;
+    text-align: center;
+
+}
+
+.avancado {
+    color: red;
+    text-align: right;
+}
+
+.especial {
+    font-weight: bold;
+    font-style: italic;
+}

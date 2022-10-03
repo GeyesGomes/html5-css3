@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratando imagens</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Abra as imagens em dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/imagem_p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/imagem_m.png" type="image/png">
+        <img src="imagens/imagem_g.png" alt="Imagem flexível">
+    </picture>
+    
+    <h1>Reprodozindo audio</h1>
+    <p>Primeiro audio</p>
+    <audio src="midias/the_two_seasons-dan_bodan.mp3" autoplay controls loop></audio>
+    
+    <p>Segundo audio</p>
+    <audio preload="metadata" controls loop>
+        <source src="midias/true_art_realaffectionpart4-noir_et_blanc_vie.mp3" type="audio/mpeg">
+        <source src="midias/true_art_realaffectionpart4-noir_et_blanc_vie.ogg" type="audio/ogg"> <!--são esses os pormatos de audio: mp3 ogg wav-->
+
+    </audio>
+    <p>Não foi possível carregar o audio, o seu navegador não é compativel com o formato. <a href="midias/true_art_realaffectionpart4-noir_et_blanc_vie.mp3">Clique aqui </a>para baixar o arquivo em mp3.</p>
+
+</body>
+</html>

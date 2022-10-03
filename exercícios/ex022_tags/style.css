@@ -1,0 +1,103 @@
+* {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+body {
+    background-color: #F29F05;
+}
+
+.logo {
+    float: left;
+    margin: 0.40em;
+}
+
+.cabecalho {
+    height: 6em;
+    background-color: #F2E205;
+    border-radius: 8px;
+    box-shadow: #F25C05 3px 3px 2px;
+    padding-bottom: 0.5em;
+}
+
+.divbusca {
+    padding-right: 1em;
+    text-align: right;
+}
+
+.divemail {
+    position: relative;
+    border-radius: 6px;
+    border: none;
+    background-color: #F28705;
+    padding: 2px;
+    margin: 0.5em 1em 0em;
+    margin-left: auto;
+    width: 250px;
+}
+#email {
+    border-radius: 6px;
+    border: none;
+    background-color: #F28705;
+    padding: 2px;
+}
+
+#txtbusca {
+    border-radius: 6px 0px 0px 6px;
+    border: none;
+    background-color: #F28705;
+    padding: 2px;
+}
+#butbusca {
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    background-color: #F28705;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+nav {
+    
+    text-align: center;
+    background-color: #F20505;
+    padding: 5px;
+    border: 2px solid #F25C05;
+    border-radius: 6px;
+    margin-top: 0.5em;
+}
+
+nav > a {
+    margin-right: 15px;
+    color: #ffff;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color:#F2E205;
+}
+
+.assunto01 {
+   
+    background-color: #ffff;
+    padding: 9px;
+    margin-top: 20px;
+}
+.assunto01 > h2 {
+    color: #F20505;
+}
+.assunto01 > aside > p {
+    text-align: right;
+}
+.foto1 {
+    display: flex;
+    margin-left: auto;
+    height: 15em;
+}
+
+footer {
+    background-color: #5c5c5c;
+    padding: 8px;
+    border-radius: 10px 0px 50px 25px;
+
+}
